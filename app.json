@@ -79,9 +79,6 @@
   },
   "addons": [
     {
-      "plan": "heroku-redis:hobby-dev"
-    },
-    {
       "plan": "jawsdb-maria:kitefin",
       "as": "WP_DB"
     },
