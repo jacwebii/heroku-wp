@@ -228,7 +228,7 @@ echo substr($content, 0, 390); ?>...</p>
 			<div class="col-md-12">
 			
 			<div class="world-map-image">
-			<img class="img-responsive" src="https://www.webii.net/cambia/wp-content/uploads/2018/07/worldwide-map-cambia.png" alt="market research customers around the world">
+			<img class="img-responsive" src="/wp-content/uploads/2018/07/worldwide-map-cambia.png" alt="market research customers around the world">
 			</div>
 			</div>
 			</div><!-- row -->
