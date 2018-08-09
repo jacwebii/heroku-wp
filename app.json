@@ -65,7 +65,7 @@
       "env": {
         "NEW_RELIC_APP_NAME": "Heroku WP Test",
         "WP_DB_SSL": "OFF",
-        "WP_DEBUG": "TRUE",
+        "WP_DEBUG": "FALSE",
         "WP_AUTH_KEY": "J}X1fks`5OJ0a}q[`KP!T-lHsRqss-566p]lmkbfx<;s>#C@jX;/HXzQQmnX8,P$",
         "WP_SECURE_AUTH_KEY": "jphh[{b()3,r)lX&V@ZSQBJa<y=;Aw0ZURa^K@GP@W@!Rw>oTSM<Gle5?lw-yY]P",
         "WP_LOGGED_IN_KEY": "V{}10hfdLzGDo9P,:#ID%,=AYDCW@$S7KR&L-Y2_J%i;*}99Wp3I>#e.ci$FMpZX",
