@@ -19,7 +19,7 @@
     },
     "WP_DEBUG": {
       "description": "Set this to 'TRUE' to turn on debug logging",
-      "value": "TRUE",
+      "value": "FALSE",
       "required": false
     },
     "DISABLE_WP_CRON": {
