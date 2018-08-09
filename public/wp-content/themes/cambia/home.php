@@ -11,7 +11,7 @@ get_header();?>
 		<div class="row">
 			<div class="col-lg-12">
                <div class="cover">
-                   <?php the_field('banner_text'); ?>
+//                   <?php the_field('banner_text'); ?>
                </div>
 </div>
 </div>
