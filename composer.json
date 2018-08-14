@@ -13,10 +13,10 @@
     ],
     "require": {
         "ext-gd": "*",
-        "php": "7.*",
+        "php": "5.*",
         "WordPress/WordPress": "*",
         "wpackagist-plugin/secure-db-connection": "~1",
-        "humanmade/s3-uploads": "~1",
+        "humanmade/s3-uploads": "~2",
         "wpackagist-plugin/jetpack": "*",
         "wpackagist-plugin/sendgrid-email-delivery-simplified": "~1",
         "predis/predis": "~1.0",
@@ -31,10 +31,10 @@
             "type": "package",
             "package": {
                 "name": "WordPress/WordPress",
-                "version": "4.9.7",
+                "version": "4.9.8",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/WordPress/WordPress/archive/4.9.7.zip"
+                    "url": "https://github.com/WordPress/WordPress/archive/4.9.8.zip"
                 }
             }
         },
