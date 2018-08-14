@@ -13,7 +13,7 @@
     ],
     "require": {
         "ext-gd": "*",
-        "php": "5.*",
+        "php": "7.*",
         "WordPress/WordPress": "*",
         "wpackagist-plugin/secure-db-connection": "~1",
         "humanmade/s3-uploads": "~2",
