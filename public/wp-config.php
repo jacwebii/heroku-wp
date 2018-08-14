@@ -56,6 +56,8 @@ if (!empty(getenv('AWS_S3_URL'))) {
 
     define('AS3CF_AWS_ACCESS_KEY_ID',     $env[0]);
     define('AS3CF_AWS_SECRET_ACCESS_KEY', $env[1]);
+    define('AS3CF_REGION',$env[2]);
+    define('AS3CF_BUCKET',$env[3]);
 
     unset($env);
 } else {
