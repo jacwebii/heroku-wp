@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "22af82d03c09a20ea889b75605588be3",
+    "content-hash": "57f3acc69f4057583e019eab99301e00",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -519,6 +519,39 @@
                 "performance"
             ],
             "time": "2018-04-11T15:42:36+00:00"
+        },
+        {
+            "name": "deliciousbrains/wp-amazon-s3-and-cloudfront",
+            "version": "1.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/deliciousbrains/wp-amazon-s3-and-cloudfront.git",
+                "reference": "f60381deca7c012ec6fcffe530dfd28245232026"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/deliciousbrains/wp-amazon-s3-and-cloudfront/zipball/f60381deca7c012ec6fcffe530dfd28245232026",
+                "reference": "f60381deca7c012ec6fcffe530dfd28245232026",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "description": "Automatically copies media uploads to Amazon S3 for delivery. Optionally configure Amazon CloudFront for even faster delivery.",
+            "homepage": "https://github.com/deliciousbrains/wp-amazon-s3-and-cloudfront",
+            "keywords": [
+                "amazon-web-services",
+                "cdn",
+                "cloudfront",
+                "plugin",
+                "s3"
+            ],
+            "time": "2018-08-02T09:50:22+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
