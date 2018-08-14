@@ -188,18 +188,6 @@ foreach ( $_saltKeys as $_saltKey ) {
 unset( $_saltKeys, $_saltKey );
 
 /**
- * Configure Batcache
- */
-$batcache = array(
-	'debug' => false,
-	'debug_header' => true,
-	'cache_control' => true,
-	'use_stale' => true,
-	'cache_redirects' => true,
-	'group' => 'batcache',
-);
-
-/**
  * Disable WP Cron if we are using an external service for this
  */
 if ( isset( $_ENV['DISABLE_WP_CRON'] ) && 'TRUE' == $_ENV['DISABLE_WP_CRON'] ) {

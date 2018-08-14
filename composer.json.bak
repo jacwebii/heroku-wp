@@ -14,11 +14,16 @@
     "require": {
         "ext-gd": "*",
         "php": "7.*",
+
         "WordPress/WordPress": "*",
+
+        "automattic/batcache": "master",
         "wpackagist-plugin/secure-db-connection": "~1",
-        "humanmade/s3-uploads": "~1",
+
+        "humanmade/s3-uploads": "~2",
         "wpackagist-plugin/jetpack": "*",
         "wpackagist-plugin/sendgrid-email-delivery-simplified": "~1",
+
         "predis/predis": "~1.0",
         "wp-cli/wp-cli": "^1.0"
     },
@@ -31,12 +36,16 @@
             "type": "package",
             "package": {
                 "name": "WordPress/WordPress",
-                "version": "4.9.7",
+                "version": "4.9.8",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/WordPress/WordPress/archive/4.9.7.zip"
+                    "url": "https://github.com/WordPress/WordPress/archive/4.9.8.zip"
                 }
             }
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xyu/batcache"
         },
         {
             "type": "composer",
@@ -50,6 +59,7 @@
     "extra": {
         "installer-paths": {
             "vendor/WordPress/WordPress/wp-content/mu-plugins/{$name}/": [
+                "automattic/batcache",
                 "wpackagist-plugin/redis-cache",
                 "wpackagist-plugin/secure-db-connection"
             ],
