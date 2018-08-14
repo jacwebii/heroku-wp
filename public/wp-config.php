@@ -54,6 +54,9 @@ if (!empty(getenv('AWS_S3_URL'))) {
     define('S3_UPLOADS_REGION', $env[2]);
     define('S3_UPLOADS_BUCKET', $env[3]);
 
+    define('AS3CF_AWS_ACCESS_KEY_ID',     $env[0]);
+    define('AS3CF_AWS_SECRET_ACCESS_KEY', $env[1]);
+
     unset($env);
 } else {
     define('S3_UPLOADS_AUTOENABLE', false);
